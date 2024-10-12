@@ -168,6 +168,7 @@ class ResidentAdvisor:
             events.append(event_info)
         return events
 
+
 if __name__ == "__main__":
     resident_advisor = ResidentAdvisor()
     events_data = resident_advisor.get_ra_events("2024-10-12", "2024-10-13")

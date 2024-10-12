@@ -1,6 +1,7 @@
 from collections import defaultdict
 from datetime import datetime
 
+
 class SpotifyEventManager:
     def __init__(self, spotify):
         self.spotify = spotify

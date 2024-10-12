@@ -32,20 +32,68 @@
         .histogram div {
             margin: 2px 0;
         }
+        .date-picker {
+            margin: 20px 0;
+        }
+        .date-picker input {
+            margin-right: 10px;
+        }
+        .event-date {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .event-date-box {
+            background-color: #1DB954; /* Spotify green */
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-right: 10px;
+        }
+        .event-date-box .day {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .event-date-box .month {
+            font-size: 0.8em;
+            text-transform: uppercase;
+        }
+        .event-time {
+            font-size: 0.9em;
+            color: #666;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to Spotify Top Artists</h1>
+    <h1>vibecheck</h1>
     <a href="/login">Login with Spotify</a>
-    <div id="event-container" class="event-grid"></div>
+    <div class="date-picker">
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" name="start-date">
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date" name="end-date">
+        <button onclick="fetchEventData()">Get Events</button>
+    </div>
+
     <div id="user-genres" class="histogram"></div>
+    <div id="event-container" class="event-grid"></div>
 
     <script>
         async function fetchEventData() {
-            const response = await fetch('/callback?code=YOUR_AUTH_CODE'); // Replace with actual code or logic to get the code
+            const startDate = document.getElementById('start-date').value;
+            const endDate = document.getElementById('end-date').value;
+            
+            if (!startDate || !endDate) {
+                alert('Please select both start and end dates');
+                return;
+            }
+
+            const response = await fetch(`/callback?code=YOUR_AUTH_CODE&start_date=${startDate}&end_date=${endDate}`); // Replace with actual code or logic to get the code
             const data = await response.json();
-            renderEvents(data.event_info);
             renderUserGenres(data.user_genre_histogram);
+            renderEvents(data.event_info);
         }
 
         function renderEvents(events) {
@@ -54,14 +102,26 @@
             events.forEach(event => {
                 const card = document.createElement('div');
                 card.className = 'event-card';
+                const eventDate = new Date(event.date);
+                const formattedDate = formatDate(eventDate);
                 card.innerHTML = `
-                    <h2>${event.title}</h2>
+                    <h3>${event.title}</h3>
                     <img src="${event.image_url}" alt="${event.title}">
+                    <div class="event-date">
+                        <div class="event-date-box">
+                            <div class="day">${formattedDate.day}</div>
+                            <div class="month">${formattedDate.month}</div>
+                        </div>
+                        <div class="event-time">${event.start_time} - ${event.end_time}</div>
+                    </div>
                     <div class="histogram">
-                        <h3>Event Genres</h3>
-                        ${Object.entries(event.event_genre_histogram).map(([genre, count]) => `
-                            <div>${genre}: ${count}</div>
-                        `).join('')}
+                        <h4>Event Genres</h4>
+                        ${Object.entries(event.event_genre_histogram)
+                            .sort((a, b) => b[1] - a[1])
+                            .map(([genre, count]) => `
+                                <div>${genre}: ${count}</div>
+                            `)
+                            .join('')}
                     </div>
                 `;
                 container.appendChild(card);
@@ -76,6 +136,14 @@
                 genreDiv.textContent = `${genre}: ${count}`;
                 container.appendChild(genreDiv);
             });
+        }
+
+        function formatDate(date) {
+            const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            return {
+                day: date.getDate(),
+                month: months[date.getMonth()]
+            };
         }
 
         // Call the function to fetch and render data
