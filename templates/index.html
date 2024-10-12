@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Top Artists</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .event-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .event-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+        }
+        .event-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .histogram {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .histogram div {
+            margin: 2px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Spotify Top Artists</h1>
+    <a href="/login">Login with Spotify</a>
+    <div id="event-container" class="event-grid"></div>
+    <div id="user-genres" class="histogram"></div>
+
+    <script>
+        async function fetchEventData() {
+            const response = await fetch('/callback?code=YOUR_AUTH_CODE'); // Replace with actual code or logic to get the code
+            const data = await response.json();
+            renderEvents(data.event_info);
+            renderUserGenres(data.user_genre_histogram);
+        }
+
+        function renderEvents(events) {
+            const container = document.getElementById('event-container');
+            container.innerHTML = ''; // Clear previous content
+            events.forEach(event => {
+                const card = document.createElement('div');
+                card.className = 'event-card';
+                card.innerHTML = `
+                    <h2>${event.title}</h2>
+                    <img src="${event.image_url}" alt="${event.title}">
+                    <div class="histogram">
+                        <h3>Event Genres</h3>
+                        ${Object.entries(event.event_genre_histogram).map(([genre, count]) => `
+                            <div>${genre}: ${count}</div>
+                        `).join('')}
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        function renderUserGenres(userGenres) {
+            const container = document.getElementById('user-genres');
+            container.innerHTML = '<h3>User Genres</h3>';
+            Object.entries(userGenres).forEach(([genre, count]) => {
+                const genreDiv = document.createElement('div');
+                genreDiv.textContent = `${genre}: ${count}`;
+                container.appendChild(genreDiv);
+            });
+        }
+
+        // Call the function to fetch and render data
+        fetchEventData();
+    </script>
+</body>
+</html>
