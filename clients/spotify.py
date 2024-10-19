@@ -4,6 +4,8 @@ from typing import Optional
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
+import asyncio
+
 
 @dataclass
 class SpotifyArtist:
@@ -27,12 +29,20 @@ class SpotifyClient:
     def get_auth_url(self):
         return self.spoauth.get_authorize_url()
 
+    def get_client(self):
+        if not self.access_token:
+            raise ValueError("Access token is not set")
+        return spotipy.Spotify(auth=self.access_token)
+
     def authorize(self, code):
         token_info = self.spoauth.get_access_token(code)
-        return spotipy.Spotify(auth=token_info["access_token"])
+        self.access_token = token_info["access_token"]
+        return self.get_client()
 
-    def search_artist(self, spotify, name) -> Optional[SpotifyArtist]:
-        results = spotify.search(q="artist:" + name, type="artist")
+    async def search_artist(self, spotify, name) -> Optional[SpotifyArtist]:
+        results = await asyncio.to_thread(
+            spotify.search, q="artist:" + name, type="artist"
+        )
         try:
             artist = next(
                 a

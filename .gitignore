@@ -4,5 +4,14 @@
 __pycache__/
 .cache
 
+# Node
+node_modules
+
 # Virtualenv
 .venv
+
+# MacOS
+.DS_Store
+
+# Database
+*.db

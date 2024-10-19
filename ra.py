@@ -157,6 +157,7 @@ class ResidentAdvisor:
             end_time = datetime.fromisoformat(event["endTime"].replace("Z", ""))
 
             event_info = {
+                "id": event["id"],
                 "title": event["title"],
                 "date": date.date(),
                 "start_time": start_time.time(),

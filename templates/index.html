@@ -38,12 +38,12 @@
         .date-picker input {
             margin-right: 10px;
         }
-        .event-date {
+        /* .event-date {
             display: flex;
             align-items: center;
             justify-content: center;
             margin-bottom: 10px;
-        }
+        } */
         .event-date-box {
             background-color: #1DB954; /* Spotify green */
             color: white;
@@ -60,9 +60,43 @@
             font-size: 0.8em;
             text-transform: uppercase;
         }
+        .event-date {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin-bottom: 10px;
+        }
+        .event-details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 10px;
+        }
         .event-time {
             font-size: 0.9em;
             color: #666;
+        }
+        .event-venue {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #333;
+            margin-top: 2px;
+        }
+        .create-playlist-btn {
+            background-color: #1DB954;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .create-playlist-btn:hover {
+            background-color: #1ed760;
+        }
+        .playlist-link {
+            margin-top: 10px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -112,7 +146,10 @@
                             <div class="day">${formattedDate.day}</div>
                             <div class="month">${formattedDate.month}</div>
                         </div>
-                        <div class="event-time">${event.start_time} - ${event.end_time}</div>
+                        <div class="event-details">
+                            <div class="event-time">${event.start_time} - ${event.end_time}</div>
+                            <div class="event-venue">${event.venue}</div>
+                        </div>
                     </div>
                     <div class="histogram">
                         <h4>Event Genres</h4>
@@ -123,6 +160,8 @@
                             `)
                             .join('')}
                     </div>
+                    <button class="create-playlist-btn" onclick="createPlaylist('${event.id}')">Create Spotify Playlist</button>
+                    <div id="playlist-link-${event.id}" class="playlist-link"></div>
                 `;
                 container.appendChild(card);
             });
@@ -144,6 +183,28 @@
                 day: date.getDate(),
                 month: months[date.getMonth()]
             };
+        }
+
+        async function createPlaylist(eventId) {
+            try {
+                const response = await fetch(`/create_playlist/${eventId}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                });
+                const data = await response.json();
+                
+                if (data.success) {
+                    const playlistLinkElement = document.getElementById(`playlist-link-${eventId}`);
+                    playlistLinkElement.innerHTML = `<a href="${data.playlist_url}" target="_blank">Open Spotify Playlist</a>`;
+                } else {
+                    alert('Failed to create playlist: ' + (data.error || 'Unknown error'));
+                }
+            } catch (error) {
+                console.error('Error creating playlist:', error);
+                alert('An error occurred while creating the playlist');
+            }
         }
 
         // Call the function to fetch and render data
