@@ -1,0 +1,1663 @@
+{
+    "data": {
+        "eventListings": {
+            "data": [
+                {
+                    "id": "11876890",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1876890",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T14:00:00.000",
+                        "endTime": "2024-06-15T22:00:00.000",
+                        "title": "[SOLD OUT] krankbrother presents: berlioz Shoreditch Street Party",
+                        "contentUrl": "/events/1876890",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 4853,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1890949",
+                                "filename": "https://images.ra.co/7f2317b698526143a8d6f1df664f4c0ab563181f.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "218867",
+                            "name": "Clifton Street",
+                            "contentUrl": "/clubs/218867",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": true,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "122983",
+                                "name": "berlioz",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "68922",
+                                "name": "Ash Lauryn",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "44358",
+                                "name": "Aroop Roy",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "18242",
+                                "name": "Krankbrother",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11864380",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1864380",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T12:00:00.000",
+                        "endTime": "2024-06-16T05:00:00.000",
+                        "title": "outro festival",
+                        "contentUrl": "/events/1864380",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 2982,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1827642",
+                                "filename": "https://images.ra.co/77818898c59df96937d7007f9186fc14ccc97dac.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "198121",
+                            "name": "The Cause",
+                            "contentUrl": "/clubs/198121",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "103911",
+                                "name": "Bakey",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "79345",
+                                "name": "Capo Lee",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "117488",
+                                "name": "Casnova",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "89448",
+                                "name": "Coco Bryce",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "79361",
+                                "name": "Conducta",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "61031",
+                                "name": "Denham Audio",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "103019",
+                                "name": "DJ Fuckoff",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "102359",
+                                "name": "Dr Dubplate",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "117458",
+                                "name": "Keyrah",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "107217",
+                                "name": "Introspekt",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "89608",
+                                "name": "Izco",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "111981",
+                                "name": "Main Phase",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "110701",
+                                "name": "Neffa-T",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "85516",
+                                "name": "Notion",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "134997",
+                                "name": "Oppidan",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "110448",
+                                "name": "Prozak (2)",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "45447",
+                                "name": "Special Request",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "97376",
+                                "name": "Tim Reaper",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "118633",
+                                "name": "Yemz",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "117396",
+                                "name": "Y U QT",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11903568",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1903568",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T23:00:00.000",
+                        "endTime": "2024-06-16T06:00:00.000",
+                        "title": "fabric: Indira Paganotto, BEC, Airod, Theo Nasa",
+                        "contentUrl": "/events/1903568",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 1095,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1839976",
+                                "filename": "https://images.ra.co/77599dcf043299fd6ba2ba083caebd17f6fadacf.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "237",
+                            "name": "fabric",
+                            "contentUrl": "/clubs/237",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "41031",
+                                "name": "Indira Paganotto",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "51988",
+                                "name": "BEC",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "73571",
+                                "name": "Airod",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "40106",
+                                "name": "Theo Nasa",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11917567",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1917567",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T22:00:00.000",
+                        "endTime": "2024-06-16T05:00:00.000",
+                        "title": "KOKO Electronic: Full Crate & Keyrah",
+                        "contentUrl": "/events/1917567",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 599,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1871435",
+                                "filename": "https://images.ra.co/c0fff4d4ab691a937cd51bab62ba562cea2b73fb.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "2038",
+                            "name": "KOKO",
+                            "contentUrl": "/clubs/2038",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "78249",
+                                "name": "Full Crate",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "117458",
+                                "name": "Keyrah",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11897357",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1897357",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T22:00:00.000",
+                        "endTime": "2024-06-16T07:00:00.000",
+                        "title": "Draaimolen x Cabin Fever: Batu, Lena Willikens, Nene H & more",
+                        "contentUrl": "/events/1897357",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 738,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1842483",
+                                "filename": "https://images.ra.co/7b63f36d7ae4c1afe1912f088d05cb568cdfb334.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": {
+                            "id": "31658",
+                            "blurb": "Draaimolen lands in London for a nine-hour affair for the ages at FOLD, with a lineup so good it's silly. Come early, and definitely stay late.",
+                            "__typename": "EventPick"
+                        },
+                        "venue": {
+                            "id": "155399",
+                            "name": "FOLD",
+                            "contentUrl": "/clubs/155399",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "78331",
+                                "name": "Angel D'lite",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "15229",
+                                "name": "Batu",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "96542",
+                                "name": "French II",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "47250",
+                                "name": "Lena Willikens",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "77346",
+                                "name": "mad miran",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "77263",
+                                "name": "Nene H",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "44750",
+                                "name": "Oberman",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "96633",
+                                "name": "THC",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "72669",
+                                "name": "Verraco",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11905509",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1905509",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T21:30:00.000",
+                        "endTime": "2024-06-16T04:00:00.000",
+                        "title": "35 Years of Derrick Carter — Derrick Carter (All Night Long)",
+                        "contentUrl": "/events/1905509",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 532,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1840526",
+                                "filename": "https://images.ra.co/d9214ad011d0245f9f9a402b8466c0f22b70a22f.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "106730",
+                            "name": "Phonox",
+                            "contentUrl": "/clubs/106730",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "68",
+                                "name": "Derrick Carter",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11881080",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1881080",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T23:00:00.000",
+                        "endTime": "2024-06-16T06:00:00.000",
+                        "title": "Origins: Adam Pits & More [On Rotation]",
+                        "contentUrl": "/events/1881080",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 750,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1841733",
+                                "filename": "https://images.ra.co/40175710c7167889e7bbf6884c12bdf33bb863a0.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            },
+                            {
+                                "id": "1805051",
+                                "filename": "https://images.ra.co/461ad902bee62c41433990c810b8a88d903268b7.png",
+                                "alt": null,
+                                "type": "FLYERBACK",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "2587",
+                            "name": "Corsica Studios",
+                            "contentUrl": "/clubs/2587",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "83118",
+                                "name": "Adam Pits",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "87491",
+                                "name": "Lisene",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "103136",
+                                "name": "FROND",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11930684",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1930684",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T22:00:00.000",
+                        "endTime": "2024-06-16T04:00:00.000",
+                        "title": "Jyoty presents: Homegrown - London",
+                        "contentUrl": "/events/1930684",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 606,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1874971",
+                                "filename": "https://images.ra.co/0f173dbf28af30c6456a7b883ab5f81f0cf200a1.png",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "191975",
+                            "name": "The Carpet Shop",
+                            "contentUrl": "/clubs/191975",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "92199",
+                                "name": "Jyoty",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11912633",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1912633",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T23:00:00.000",
+                        "endTime": "2024-06-16T06:00:00.000",
+                        "title": "House Passion Summer Party",
+                        "contentUrl": "/events/1912633",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 304,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1878538",
+                                "filename": "https://images.ra.co/a404815155ed72cf608b3076ddfad9be5c3b299e.png",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            },
+                            {
+                                "id": "1874936",
+                                "filename": "https://images.ra.co/c86e7ac06738f4d341c04702d455d32494caccd7.jpg",
+                                "alt": null,
+                                "type": "FLYERBACK",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "141756",
+                            "name": "E1",
+                            "contentUrl": "/clubs/141756",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "46780",
+                                "name": "Shenin Amara",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "16166",
+                                "name": "Supa D",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "131111",
+                                "name": "Beezo",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "58337",
+                                "name": "DJ S (UK)",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11906417",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1906417",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T22:00:00.000",
+                        "endTime": "2024-06-16T04:00:00.000",
+                        "title": "Metropolis: Joe Goddard (Hot Chip)",
+                        "contentUrl": "/events/1906417",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 342,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1865632",
+                                "filename": "https://images.ra.co/1a8d8545552e2081b6defad8e56eaa25e3001b42.png",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "20525",
+                            "name": "Metropolis",
+                            "contentUrl": "/clubs/20525",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "11012",
+                                "name": "Joe Goddard",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "737",
+                                "name": "Hot Chip",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "135875",
+                                "name": "Lou Hayter",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11919430",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1919430",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T22:00:00.000",
+                        "endTime": "2024-06-16T06:00:00.000",
+                        "title": "Audiowhore",
+                        "contentUrl": "/events/1919430",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 262,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1885875",
+                                "filename": "https://images.ra.co/a1c25520528ba12e4c026ac5c974d969ec482e26.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "725",
+                            "name": "Ministry Of Sound",
+                            "contentUrl": "/clubs/725",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "59161",
+                                "name": "Roberto Surace",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "35462",
+                                "name": "Leftwing & Kody",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "57018",
+                                "name": "PAX",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "41535",
+                                "name": "DJ Majesty",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "41530",
+                                "name": "Steven Cee",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "27034",
+                                "name": "Pioneer",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "58883",
+                                "name": "Ben Murphy",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "50969",
+                                "name": "Jerome Six",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "109518",
+                                "name": "Jenny C (1)",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "91368",
+                                "name": "Marcellus",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "124765",
+                                "name": "Meeshy",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "98444",
+                                "name": "Silver (UK)",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "3212",
+                                "name": "Tricky",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "85050",
+                                "name": "Brian Smith",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "93666",
+                                "name": "Darrell Privett",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "81241",
+                                "name": "HARTY",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "101285",
+                                "name": "JAYDAA",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "60921",
+                                "name": "Ricky Sahota",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11868844",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1868844",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T12:00:00.000",
+                        "endTime": "2024-06-16T03:00:00.000",
+                        "title": "Materials: Summer Garden Party",
+                        "contentUrl": "/events/1868844",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 282,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1867436",
+                                "filename": "https://images.ra.co/588b3a7bddee0439a5dbfaac939418b809bc584b.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            },
+                            {
+                                "id": "1834757",
+                                "filename": "https://images.ra.co/b17d1e09d4278ca9071d6d8cce5991281395982f.jpg",
+                                "alt": null,
+                                "type": "FLYERBACK",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "83895",
+                            "name": "The Fox and Firkin",
+                            "contentUrl": "/clubs/83895",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "93981",
+                                "name": "Bushbby",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "102015",
+                                "name": "Haseeb Iqbal",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "73793",
+                                "name": "K-LONE (UK)",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "46741",
+                                "name": "Facta",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "11147",
+                                "name": "Plastician",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "102256",
+                                "name": "Ruby SD",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11859779",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1859779",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T22:00:00.000",
+                        "endTime": "2024-06-16T04:00:00.000",
+                        "title": "Parable: Jennifer Cardini b2b Pablo Bozzi all night long",
+                        "contentUrl": "/events/1859779",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 217,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1839684",
+                                "filename": "https://images.ra.co/a4a9f1540027a1cc8c862b426ef8c0b2da31e043.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            },
+                            {
+                                "id": "1839685",
+                                "filename": "https://images.ra.co/b27928a221a526ffaffa85afb90418a6098632ac.jpg",
+                                "alt": null,
+                                "type": "FLYERBACK",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "185559",
+                            "name": "Colour Factory",
+                            "contentUrl": "/clubs/185559",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "699",
+                                "name": "Jennifer Cardini",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "100852",
+                                "name": "Pablo Bozzi",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11859708",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1859708",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T18:30:00.000",
+                        "endTime": "2024-06-15T23:00:00.000",
+                        "title": "Judas Promotions presents: Return of the HMS Sinner",
+                        "contentUrl": "/events/1859708",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 135,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1790699",
+                                "filename": "https://images.ra.co/89fcdde17c6de27441b14987fef3af3c72d50c51.png",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            },
+                            {
+                                "id": "1790700",
+                                "filename": "https://images.ra.co/6bdd37f5be2922c2beb03022c7d70832bce62668.jpg",
+                                "alt": null,
+                                "type": "FLYERBACK",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "144529",
+                            "name": "Bankside Pier",
+                            "contentUrl": "/clubs/144529",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "115508",
+                                "name": "Matthew Al Dente",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "107377",
+                                "name": "Double You Tee",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11928216",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1928216",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T21:00:00.000",
+                        "endTime": "2024-06-16T05:00:00.000",
+                        "title": "EGØ DEÅTH // Hard Techno Underground",
+                        "contentUrl": "/events/1928216",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 199,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1870216",
+                                "filename": "https://images.ra.co/8d23d2fb11055d541061b8a54c61bd993038bacb.png",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            },
+                            {
+                                "id": "1881256",
+                                "filename": "https://images.ra.co/edb9dc2cca6c16bda6670a0f18afffdb20d94d7b.jpg",
+                                "alt": null,
+                                "type": "FLYERBACK",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "176598",
+                            "name": "Unit 58",
+                            "contentUrl": "/clubs/176598",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "117479",
+                                "name": "Labåzuy",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "130575",
+                                "name": "Lezcano",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "119561",
+                                "name": "Saroor",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "137310",
+                                "name": "Yiota",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "142855",
+                                "name": "Atheus",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11885799",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1885799",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T23:00:00.000",
+                        "endTime": "2024-06-16T06:00:00.000",
+                        "title": "OUT OF CTRL x STICKY GROUND with Bas Mooy, Rebecca Delle Piane, ALNA, Küetzal",
+                        "contentUrl": "/events/1885799",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 568,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1844744",
+                                "filename": "https://images.ra.co/ae5b07a94738f9efd69fd1995f4367e654ccbd54.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            },
+                            {
+                                "id": "1844745",
+                                "filename": "https://images.ra.co/beb2ea39a1b0cd12d70cda1d193be451f20ba3f8.jpg",
+                                "alt": null,
+                                "type": "FLYERBACK",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "141756",
+                            "name": "E1",
+                            "contentUrl": "/clubs/141756",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "11809",
+                                "name": "Bas Mooy",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "93269",
+                                "name": "Rebecca Delle Piane",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "82582",
+                                "name": "ALNA",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "63915",
+                                "name": "Küetzal",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11910770",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1910770",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T20:00:00.000",
+                        "endTime": "2024-06-16T03:00:00.000",
+                        "title": "Paraiso: House Music All Night Long",
+                        "contentUrl": "/events/1910770",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 154,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1846551",
+                                "filename": "https://images.ra.co/c980cbbe1cf7a0c4fa15042b0d897e70fe4a14b5.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            },
+                            {
+                                "id": "1846552",
+                                "filename": "https://images.ra.co/c06f5a57984bed63aac23784684ac03fc8bdfcd4.jpg",
+                                "alt": null,
+                                "type": "FLYERBACK",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "155586",
+                            "name": "Night Tales",
+                            "contentUrl": "/clubs/155586",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "118343",
+                                "name": "Melle Brown",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11927395",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1927395",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T15:30:00.000",
+                        "endTime": "2024-06-15T21:00:00.000",
+                        "title": "A Day With: Colleen Cosmo Murphy & Zero 7 [DJ Set]",
+                        "contentUrl": "/events/1927395",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 154,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1869868",
+                                "filename": "https://images.ra.co/eef75891751a5d5c98b94428ca4bf3d22a69006b.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "115524",
+                            "name": "Night Tales Loft",
+                            "contentUrl": "/clubs/115524",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "87277",
+                                "name": "Colleen 'Cosmo' Murphy",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "532",
+                                "name": "Zero 7",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11905473",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1905473",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T22:00:00.000",
+                        "endTime": "2024-06-16T07:00:00.000",
+                        "title": "Strange DNA: Danny Wabbit, Hoymans",
+                        "contentUrl": "/events/1905473",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 159,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1850922",
+                                "filename": "https://images.ra.co/35f2f84c9de85e330d982f171cc6d74d3dce8e64.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "156290",
+                            "name": "Venue MOT",
+                            "contentUrl": "/clubs/156290",
+                            "live": true,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "98268",
+                                "name": "Danny Wabbit",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "127035",
+                                "name": "Faux Arab",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "142247",
+                                "name": "FAUX",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "121615",
+                                "name": "Hoymans",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "96192",
+                                "name": "Ryan Licchelli",
+                                "__typename": "Artist"
+                            },
+                            {
+                                "id": "141857",
+                                "name": "SEXCE COSMOS",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                },
+                {
+                    "id": "11924194",
+                    "listingDate": "2024-06-15T00:00:00.000",
+                    "event": {
+                        "id": "1924194",
+                        "date": "2024-06-15T00:00:00.000",
+                        "startTime": "2024-06-15T16:00:00.000",
+                        "endTime": "2024-06-15T23:00:00.000",
+                        "title": "Digger's Paradise: Day to Night Boat Party",
+                        "contentUrl": "/events/1924194",
+                        "flyerFront": null,
+                        "isTicketed": true,
+                        "attending": 117,
+                        "queueItEnabled": false,
+                        "newEventForm": true,
+                        "images": [
+                            {
+                                "id": "1864628",
+                                "filename": "https://images.ra.co/6b22a96b4da15f8eb118bd8c0516eacdcf1b6f8a.jpg",
+                                "alt": null,
+                                "type": "FLYERFRONT",
+                                "crop": null,
+                                "__typename": "EventImage"
+                            }
+                        ],
+                        "pick": null,
+                        "venue": {
+                            "id": "194339",
+                            "name": "TBA - Secret Location",
+                            "contentUrl": null,
+                            "live": false,
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Event",
+                        "isInterested": false,
+                        "isSaved": false,
+                        "artists": [
+                            {
+                                "id": "74225",
+                                "name": "Isaac Reuben",
+                                "__typename": "Artist"
+                            }
+                        ]
+                    },
+                    "__typename": "EventListing"
+                }
+            ],
+            "filterOptions": {
+                "genre": [
+                    {
+                        "label": "Acid",
+                        "value": "acid",
+                        "count": 3,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Afrobeat",
+                        "value": "afrobeat",
+                        "count": 2,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Afrobeats",
+                        "value": "afrobeats",
+                        "count": 2,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Afro House",
+                        "value": "afrohouse",
+                        "count": 4,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Ambient",
+                        "value": "ambient",
+                        "count": 1,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Baile Funk",
+                        "value": "bailefunk",
+                        "count": 2,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Balearic",
+                        "value": "balearic",
+                        "count": 1,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Bass",
+                        "value": "bass",
+                        "count": 6,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Broken Beat",
+                        "value": "brokenbeat",
+                        "count": 1,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Club",
+                        "value": "club",
+                        "count": 3,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Dancehall",
+                        "value": "dancehall",
+                        "count": 3,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Deep House",
+                        "value": "deephouse",
+                        "count": 8,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Disco",
+                        "value": "disco",
+                        "count": 18,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Downtempo",
+                        "value": "downtempo",
+                        "count": 1,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Drone",
+                        "value": "drone",
+                        "count": 1,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Drum & Bass",
+                        "value": "drumandbass",
+                        "count": 5,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Dub",
+                        "value": "dub",
+                        "count": 3,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "EBM",
+                        "value": "ebm",
+                        "count": 1,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Electro",
+                        "value": "electro",
+                        "count": 4,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Electronica",
+                        "value": "electronica",
+                        "count": 4,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Experimental",
+                        "value": "experimental",
+                        "count": 2,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Funk / Soul",
+                        "value": "funksoul",
+                        "count": 7,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Garage",
+                        "value": "garage",
+                        "count": 5,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Grime",
+                        "value": "grime",
+                        "count": 1,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Hip-Hop",
+                        "value": "hiphop",
+                        "count": 7,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "House",
+                        "value": "house",
+                        "count": 37,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Industrial",
+                        "value": "industrial",
+                        "count": 2,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Italo Disco",
+                        "value": "italodisco",
+                        "count": 2,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Jazz",
+                        "value": "jazz",
+                        "count": 6,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Jungle",
+                        "value": "jungle",
+                        "count": 4,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Latin Bass",
+                        "value": "latinbass",
+                        "count": 1,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Minimal",
+                        "value": "minimal",
+                        "count": 3,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Minimal Techno",
+                        "value": "minimaltechno",
+                        "count": 1,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Noise",
+                        "value": "noise",
+                        "count": 1,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Pop",
+                        "value": "pop",
+                        "count": 2,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Post-Punk",
+                        "value": "postpunk",
+                        "count": 1,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Progressive House",
+                        "value": "progressivehouse",
+                        "count": 1,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Reggaeton",
+                        "value": "reggaeton",
+                        "count": 2,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "R&B",
+                        "value": "rnb",
+                        "count": 6,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Tech House",
+                        "value": "techhouse",
+                        "count": 13,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Techno",
+                        "value": "techno",
+                        "count": 18,
+                        "__typename": "GenreFilterOption"
+                    },
+                    {
+                        "label": "Trance",
+                        "value": "trance",
+                        "count": 3,
+                        "__typename": "GenreFilterOption"
+                    }
+                ],
+                "eventType": [
+                    {
+                        "value": 1,
+                        "count": 63,
+                        "__typename": "EventTypeFilterOption"
+                    },
+                    {
+                        "value": 2,
+                        "count": 1,
+                        "__typename": "EventTypeFilterOption"
+                    },
+                    {
+                        "value": 3,
+                        "count": 16,
+                        "__typename": "EventTypeFilterOption"
+                    }
+                ],
+                "location": null,
+                "__typename": "FilterOptions"
+            },
+            "totalResults": 122,
+            "__typename": "EventListings"
+        }
+    }
+}

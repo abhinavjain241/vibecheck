@@ -1,0 +1,490 @@
+{
+    "data": {
+        "event": {
+            "id": "1958477",
+            "title": "Indira Paganotto  OGUZ  Cera Khin  Luigi Madonna  More",
+            "flyerFront": null,
+            "flyerBack": null,
+            "content": "TICKETS FROM TROXY AVAILABLE FROM VENUE WEBSITE / DICE\n\nE1 TICKETS 80% ALREADY SOLD OUT\n\nTROXY LAST ENTRY 8PM, TROXY CURFEW 11PM\nTROXY VIP INCLUDES: FAST-TRACK ENTRY, FREE CLOAKROOM, PRIVATE BAR, SPECIAL SECRET SURPRISE.\n\nE1 VIP Includes: Backstage Access, Fast Track Entry, Free Cloakroom, Private Bar, and More.\n\n",
+            "minimumAge": 18,
+            "cost": "£10 - £45",
+            "contentUrl": "/events/1958477",
+            "embargoDate": null,
+            "date": "2024-09-28T00:00:00.000",
+            "time": null,
+            "startTime": "2024-09-28T18:00:00.000",
+            "endTime": "2024-09-29T06:00:00.000",
+            "interestedCount": 1374,
+            "lineup": "<artist id=\"147801\">Troxy</artist>:\n<artist id=\"41031\">Indira Paganotto</artist>\n<artist id=\"87460\">OGUZ</artist>\n<artist id=\"95209\">CHRSmusic</artist>\n<artist id=\"104230\">SUMIA</artist>\n\nE1:\nIndira Paganotto\n<artist id=\"68497\">Cera Khin</artist>\n<artist id=\"13609\">Luigi Madonna</artist>\nSUMIA\nCHRS\n<artist id=\"147248\">Gray Cosmo</artist>\n<artist id=\"85911\">Akoriz</artist>\n<artist id=\"80295\">Anna Unusyan</artist>",
+            "isInterested": false,
+            "isSaved": false,
+            "isTicketed": true,
+            "isFestival": false,
+            "dateUpdated": "2024-09-28T13:44:44.823Z",
+            "resaleActive": false,
+            "newEventForm": true,
+            "datePosted": "2024-07-05T17:03:28.310Z",
+            "hasSecretVenue": false,
+            "live": true,
+            "canSubscribeToTicketNotifications": false,
+            "images": [
+                {
+                    "id": "1980428",
+                    "filename": "https://images.ra.co/e49f822d7526c482be08b2d87d709fa4a22a9f07.png",
+                    "alt": null,
+                    "type": "FLYERFRONT",
+                    "crop": null,
+                    "__typename": "EventImage"
+                },
+                {
+                    "id": "1984053",
+                    "filename": "https://images.ra.co/8e7cfdc986cc86bdcea837ed2018866f76c20c31.png",
+                    "alt": null,
+                    "type": "FLYERBACK",
+                    "crop": null,
+                    "__typename": "EventImage"
+                }
+            ],
+            "venue": {
+                "id": "141756",
+                "name": "E1",
+                "address": "110 Pennington Street, Wapping, London E1W 2BB",
+                "contentUrl": "/clubs/141756",
+                "live": true,
+                "area": {
+                    "id": "13",
+                    "name": "London",
+                    "urlName": "london",
+                    "country": {
+                        "id": "3",
+                        "name": "United Kingdom",
+                        "urlCode": "UK",
+                        "isoCode": "GBR",
+                        "__typename": "Country"
+                    },
+                    "__typename": "Area"
+                },
+                "location": {
+                    "latitude": 51.509058,
+                    "longitude": -0.061664,
+                    "__typename": "GeoLocation"
+                },
+                "__typename": "Venue"
+            },
+            "promoters": [
+                {
+                    "id": "75108",
+                    "name": "E1",
+                    "contentUrl": "/promoters/75108",
+                    "live": true,
+                    "hasTicketAccess": true,
+                    "tracking": [
+                        {
+                            "id": "2026",
+                            "code": "865291950713044",
+                            "event": "FacebookPageView",
+                            "__typename": "PromoterTracking"
+                        },
+                        {
+                            "id": "2029",
+                            "code": "CNK011JC77UEN0P3AS4G",
+                            "event": "TikTokPageView",
+                            "__typename": "PromoterTracking"
+                        }
+                    ],
+                    "__typename": "Promoter"
+                },
+                {
+                    "id": "80989",
+                    "name": "adpeventworld",
+                    "contentUrl": "/promoters/80989",
+                    "live": true,
+                    "hasTicketAccess": true,
+                    "tracking": [
+                        {
+                            "id": "870",
+                            "code": "3228522140763919",
+                            "event": "FacebookPageView",
+                            "__typename": "PromoterTracking"
+                        },
+                        {
+                            "id": "871",
+                            "code": "317338773697054",
+                            "event": "FacebookPageView",
+                            "__typename": "PromoterTracking"
+                        }
+                    ],
+                    "__typename": "Promoter"
+                },
+                {
+                    "id": "143172",
+                    "name": "ELVT",
+                    "contentUrl": "/promoters/143172",
+                    "live": true,
+                    "hasTicketAccess": true,
+                    "tracking": [],
+                    "__typename": "Promoter"
+                }
+            ],
+            "artists": [
+                {
+                    "id": "147801",
+                    "name": "Troxy",
+                    "contentUrl": "/dj/troxy",
+                    "urlSafeName": "troxy",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "41031",
+                    "name": "Indira Paganotto",
+                    "contentUrl": "/dj/indirapaganotto",
+                    "urlSafeName": "indirapaganotto",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "87460",
+                    "name": "OGUZ",
+                    "contentUrl": "/dj/oguz",
+                    "urlSafeName": "oguz",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "95209",
+                    "name": "CHRSmusic",
+                    "contentUrl": "/dj/chrstechno",
+                    "urlSafeName": "chrstechno",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "104230",
+                    "name": "SUMIA",
+                    "contentUrl": "/dj/sumia",
+                    "urlSafeName": "sumia",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "68497",
+                    "name": "Cera Khin",
+                    "contentUrl": "/dj/cerakhin",
+                    "urlSafeName": "cerakhin",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "13609",
+                    "name": "Luigi Madonna",
+                    "contentUrl": "/dj/luigimadonna",
+                    "urlSafeName": "luigimadonna",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "147248",
+                    "name": "Gray Cosmo",
+                    "contentUrl": "/dj/graycosmo",
+                    "urlSafeName": "graycosmo",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "85911",
+                    "name": "Akoriz",
+                    "contentUrl": "/dj/akoriz",
+                    "urlSafeName": "akoriz",
+                    "__typename": "Artist"
+                },
+                {
+                    "id": "80295",
+                    "name": "Anna Unusyan",
+                    "contentUrl": "/dj/annaunusyan",
+                    "urlSafeName": "annaunusyan",
+                    "__typename": "Artist"
+                }
+            ],
+            "pick": null,
+            "promotionalLinks": [
+                {
+                    "title": "E1",
+                    "url": "https://www.e1ldn.co/",
+                    "__typename": "PromotionalLink"
+                }
+            ],
+            "tracking": [],
+            "admin": {
+                "id": "3053728",
+                "username": "E1LONDON",
+                "__typename": "User"
+            },
+            "tickets": [
+                {
+                    "id": "874142",
+                    "title": "Combo Group Ticket (TROXY + E1) Admit 4",
+                    "validType": "SOLDOUT",
+                    "onSaleFrom": "2024-08-07T10:30:00.000Z",
+                    "priceRetail": 163.5,
+                    "isAddOn": false,
+                    "currency": {
+                        "id": "1",
+                        "code": "GBP",
+                        "__typename": "Currency"
+                    },
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "903358",
+                    "title": "E1 (11pm 6am) (Entry Before Midnight)",
+                    "validType": "VALID",
+                    "onSaleFrom": "2024-04-01T13:00:00.000Z",
+                    "priceRetail": 25,
+                    "isAddOn": false,
+                    "currency": {
+                        "id": "1",
+                        "code": "GBP",
+                        "__typename": "Currency"
+                    },
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "903359",
+                    "title": "E1 (11pm 6am) - Final Release",
+                    "validType": "VALID",
+                    "onSaleFrom": "2024-04-01T12:30:00.000Z",
+                    "priceRetail": 30,
+                    "isAddOn": false,
+                    "currency": {
+                        "id": "1",
+                        "code": "GBP",
+                        "__typename": "Currency"
+                    },
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "903361",
+                    "title": "E1 (11pm 6am) Group Ticket (admits 4 - arrive together)",
+                    "validType": "VALID",
+                    "onSaleFrom": "2024-04-01T12:30:00.000Z",
+                    "priceRetail": 90,
+                    "isAddOn": false,
+                    "currency": {
+                        "id": "1",
+                        "code": "GBP",
+                        "__typename": "Currency"
+                    },
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "903392",
+                    "title": "E1 (11pm 6am): VIP Backstage Access, Free Cloackroom, VIP Bar,",
+                    "validType": "VALID",
+                    "onSaleFrom": "2024-04-02T13:00:00.000Z",
+                    "priceRetail": 60,
+                    "isAddOn": false,
+                    "currency": {
+                        "id": "1",
+                        "code": "GBP",
+                        "__typename": "Currency"
+                    },
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904110",
+                    "title": "Troxy (6pm-11:00pm) Pairs Tickets - Admits 2 (35 - pp)",
+                    "validType": "SOLDOUT",
+                    "onSaleFrom": "2024-09-25T09:00:00.000Z",
+                    "priceRetail": 70,
+                    "isAddOn": false,
+                    "currency": {
+                        "id": "1",
+                        "code": "GBP",
+                        "__typename": "Currency"
+                    },
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904111",
+                    "title": "Troxy (6pm-11:00pm) Final Release",
+                    "validType": "NOLONGERONSALE",
+                    "onSaleFrom": "2024-09-25T09:00:00.000Z",
+                    "priceRetail": 46.5,
+                    "isAddOn": false,
+                    "currency": {
+                        "id": "1",
+                        "code": "GBP",
+                        "__typename": "Currency"
+                    },
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904113",
+                    "title": "Troxy (6pm-11:00pm) Group Tickets (Admits 4 - Arrive Together)",
+                    "validType": "SOLDOUT",
+                    "onSaleFrom": "2024-09-25T09:30:00.000Z",
+                    "priceRetail": 139.5,
+                    "isAddOn": false,
+                    "currency": {
+                        "id": "1",
+                        "code": "GBP",
+                        "__typename": "Currency"
+                    },
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904115",
+                    "title": "VIP",
+                    "validType": "SOLDOUT",
+                    "onSaleFrom": "2024-09-25T09:30:00.000Z",
+                    "priceRetail": 71.5,
+                    "isAddOn": false,
+                    "currency": {
+                        "id": "1",
+                        "code": "GBP",
+                        "__typename": "Currency"
+                    },
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904130",
+                    "title": "Combo Tickets (Troxy + E1) Final Release",
+                    "validType": "SOLDOUT",
+                    "onSaleFrom": "2024-09-25T09:30:00.000Z",
+                    "priceRetail": 71.5,
+                    "isAddOn": false,
+                    "currency": {
+                        "id": "1",
+                        "code": "GBP",
+                        "__typename": "Currency"
+                    },
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904132",
+                    "title": "Combo Group Tickets (Admits 4 Troxy + E1)",
+                    "validType": "SOLDOUT",
+                    "onSaleFrom": "2024-09-25T09:30:00.000Z",
+                    "priceRetail": 214.5,
+                    "isAddOn": false,
+                    "currency": {
+                        "id": "1",
+                        "code": "GBP",
+                        "__typename": "Currency"
+                    },
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904133",
+                    "title": "Combo Vip: Troxy + E1",
+                    "validType": "SOLDOUT",
+                    "onSaleFrom": "2024-09-25T09:30:00.000Z",
+                    "priceRetail": 120,
+                    "isAddOn": false,
+                    "currency": {
+                        "id": "1",
+                        "code": "GBP",
+                        "__typename": "Currency"
+                    },
+                    "__typename": "Ticket"
+                }
+            ],
+            "standardTickets": [
+                {
+                    "id": "874142",
+                    "validType": "SOLDOUT",
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "903358",
+                    "validType": "VALID",
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "903359",
+                    "validType": "VALID",
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "903361",
+                    "validType": "VALID",
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "903392",
+                    "validType": "VALID",
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904110",
+                    "validType": "SOLDOUT",
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904111",
+                    "validType": "NOLONGERONSALE",
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904113",
+                    "validType": "SOLDOUT",
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904115",
+                    "validType": "SOLDOUT",
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904130",
+                    "validType": "SOLDOUT",
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904132",
+                    "validType": "SOLDOUT",
+                    "__typename": "Ticket"
+                },
+                {
+                    "id": "904133",
+                    "validType": "SOLDOUT",
+                    "__typename": "Ticket"
+                }
+            ],
+            "userOrders": [],
+            "playerLinks": [
+                {
+                    "id": "250231",
+                    "sourceId": "https://www.youtube.com/watch?v=dTkS-zWOQVU",
+                    "audioService": {
+                        "id": "8",
+                        "name": "Full Media Url",
+                        "__typename": "AudioService"
+                    },
+                    "__typename": "PlayerLink"
+                }
+            ],
+            "childEvents": [],
+            "genres": [
+                {
+                    "id": "5",
+                    "name": "Techno",
+                    "slug": "techno",
+                    "__typename": "Genre"
+                },
+                {
+                    "id": "76",
+                    "name": "Psytrance",
+                    "slug": "psytrance",
+                    "__typename": "Genre"
+                }
+            ],
+            "setTimes": {
+                "id": null,
+                "lineup": null,
+                "status": "NONE",
+                "__typename": "SetTimesDto"
+            },
+            "area": {
+                "ianaTimeZone": "Europe/London",
+                "__typename": "Area"
+            },
+            "ticketingSystem": "LEGACY",
+            "__typename": "Event",
+            "presaleStatus": null
+        }
+    }
+}

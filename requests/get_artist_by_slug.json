@@ -1,0 +1,47 @@
+{
+    "data": {
+        "artist": {
+            "id": "122983",
+            "name": "berlioz",
+            "followerCount": 6080,
+            "firstName": "Jasper",
+            "lastName": "Attlee",
+            "aliases": "Ted Jasper",
+            "isFollowing": false,
+            "coverImage": null,
+            "contentUrl": "/dj/berlioz",
+            "facebook": null,
+            "soundcloud": "https://www.soundcloud.com/berlioz-music",
+            "instagram": "https://www.instagram.com/thisisberlioz",
+            "twitter": null,
+            "bandcamp": null,
+            "discogs": null,
+            "website": "http://berliozmusic.com",
+            "urlSafeName": "berlioz",
+            "pronouns": "",
+            "country": {
+                "id": "3",
+                "name": "United Kingdom",
+                "urlCode": "UK",
+                "__typename": "Country"
+            },
+            "residentCountry": {
+                "id": "3",
+                "name": "United Kingdom",
+                "urlCode": "UK",
+                "__typename": "Country"
+            },
+            "news": [],
+            "reviews": [],
+            "image": "https://static.ra.co/images/profiles/square/berlioz.jpg?dateUpdated=1683900775000",
+            "biography": {
+                "id": "80495",
+                "blurb": "If Matisse made house music.",
+                "content": "This mysterious DJ and producer has burst onto the jazz-house scene, accumulating millions of listens ahead of his EP release in a matter of months.",
+                "discography": "https://open.spotify.com/artist/3k3RY7kR8f0vp8Cq27P141?si=AKnjJjKyQkSSiEllUYgIDg",
+                "__typename": "ArtistBio"
+            },
+            "__typename": "Artist"
+        }
+    }
+}
